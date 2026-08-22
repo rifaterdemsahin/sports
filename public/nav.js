@@ -6,6 +6,7 @@
     { href: "./better.html", id: "better", label: "🏋️ Better" },
     { href: "./locations.html", id: "locations", label: "📍 Locations" },
     { href: "./supplements.html", id: "supplements", label: "💊 Supplements" },
+    { href: "./sleep.html", id: "sleep", label: "😴 Sleep" },
     { href: "./hypo.html", id: "hypo", label: "⚠️ Hypos" },
   ];
 
@@ -24,7 +25,8 @@
     { title: "🔥 Calories", href: "./supplements.html", text: "bmr 1879 tdee 2912 stay-fit 2612 kcal protein macros mifflin" },
     { title: "💊 Supplements", href: "./supplements.html", text: "vault homeSupplements vitamin C D3 B complex magnesium k2 fish oil creatine" },
     { title: "🏠 Vault stack", href: "./supplements.html#vault", text: "vitamin C 1000 B complex multivitamin D3 calcium magnesium potassium k2 hemp fish oil turmeric greens collagen ginseng evoo ginkgo melatonin tryptophan fasting salts" },
-    { title: "😴 Sleep supplements", href: "./supplements.html#sleep", text: "tryptophan l-trotoplan melatonin gummies" },
+    { title: "😴 Sleep", href: "./sleep.html", text: "sleep 22:00 05:45 parkside melatonin tryptophan magnesium hypo overnight 75 strong" },
+    { title: "😴 Sleep supplements", href: "./sleep.html#stack", text: "tryptophan l-trotoplan melatonin gummies magnesium" },
     { title: "⛔ Stopped supplements", href: "./supplements.html#stopped", text: "keto electrolytes lions mane raspberry ketones" },
     { title: "🏋️ Better Cambridge", href: "./better.html", text: "better gll cambridge membership parkside abbey cherry hinton jesus green lido ice arena kings hedges splashpads" },
     { title: "🏋️ Parkside", href: "./better.html#parkside", text: "parkside pools gym gonville place CB1 1LY opening times monday friday 6.30am 10.00pm saturday sunday 8.00am 5.30pm better.org.uk/parksidepools" },

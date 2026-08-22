@@ -53,6 +53,9 @@ function answer(q) {
   if (s.includes("creatine") || s.includes("supplement") || s.includes("vitamin") || s.includes("vault")) {
     return "🏠 Jun 2025 vault (homeSupplements.md): C 1000, B-complex, multi, D3, Ca/Mg/K, extra Mg 2 caps, K2, hemp oil, fish oil, turmeric, greens, collagen greens (3 servings), potassium tabs, Siberian ginseng, EVOO 1 tbsp/meal, salad. You only: ginkgo, Brain Focus. Sleep: tryptophan, melatonin. As needed: fasting salts. Stopped: keto electrolytes, Lion’s Mane. Sport layer: ⚡ creatine 5 g with food. Not medical advice.";
   }
+  if (s.includes("sleep") || s.includes("melatonin") || s.includes("tryptophan") || s.includes("bed")) {
+    return "😴 Lights out ~22:00 so you can hit Parkside at 6.30am. Vault sleep: L-Tryptophan (L-Trotoplan) and melatonin gummies. Don’t go to bed empty (hypos). See the Sleep page.";
+  }
   if (s.includes("strong") || s.includes("75") || s.includes("hour") || s.includes("rule of thumb")) {
     return "💪 75 Strong: one hour of sport every day for 75 days. Not 75 Hard (no two-a-days, no restart). Travel walks count. Fuel first. Log the hour on the 75 Strong page.";
   }
