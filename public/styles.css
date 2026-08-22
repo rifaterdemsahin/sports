@@ -86,6 +86,13 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
+button.ghost {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  margin-left: 0.4rem;
+}
+button:disabled { opacity: 0.5; cursor: default; }
 .hypo ol { color: var(--muted); }
 footer { padding: 0 4vw 2rem; color: var(--muted); font-size: 0.85rem; }
 .nav {

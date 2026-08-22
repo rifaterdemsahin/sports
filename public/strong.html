@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💪 75 Strong · 1 hour a day · Erdem Sports Agent</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="site-nav"></div>
+  <header class="top">
+    <div>
+      <p class="kicker">💪 Rule of thumb · 1 hour of sport a day · 75 days</p>
+      <h1>75 Strong</h1>
+    </div>
+    <div class="stats">
+      <span>⏱️ 60 minutes · one session</span>
+      <span>📅 75 days of showing up</span>
+      <span class="warn">⚠️ Not 75 Hard — no two-a-days, no restart punishment</span>
+    </div>
+  </header>
+  <main>
+    <section class="card">
+      <h2>🎯 The rule</h2>
+      <p class="lede"><strong>One hour of sport every day.</strong> That is the stay-fit line for Rifat Erdem Sahin. Gym, spin, tennis, swim, or a London/Reading walk all count if the clock hits about 60 minutes and you fuel first (hypoglycaemia).</p>
+      <p>75 Hard asks for two 45-minute workouts, a gallon of water, zero alcohol, and a restart from day 1 if you miss anything. <strong>75 Strong keeps the 75-day spine and drops the grind that would wreck a 46-year-old with hypos and Thursday trains.</strong> Miss a day: log it, start again tomorrow. Do not restart the whole 75.</p>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <h2>📋 Daily Strong checklist</h2>
+        <ol>
+          <li>⏱️ <strong>60 minutes of sport</strong> — one block (or two easy pieces that add to 60 on travel days).</li>
+          <li>🍌 <strong>Fuel</strong> 15–30 min before. Do not train fasted.</li>
+          <li>⚡ <strong>Creatine 5 g</strong> with food, every day including rest-shaped days.</li>
+          <li>💧 <strong>~2–3 litres of water</strong> — extra ~400 ml around creatine. Not a forced gallon.</li>
+          <li>🔥 Stay near <strong>~2,612 kcal</strong> on a normal week (see Supplements).</li>
+        </ol>
+        <p class="lede">Optional: 📖 10 pages of anything, 📸 one photo if you like tracking. Neither is required to keep the streak.</p>
+      </article>
+      <article class="card">
+        <h2>🆚 Hard vs Strong</h2>
+        <table class="kcal-table">
+          <thead>
+            <tr><th></th><th>75 Hard</th><th>75 Strong (Erdem)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sport</td><td>2 × 45 min, one outdoors</td><td><strong>1 × 60 min</strong></td></tr>
+            <tr><td>Rest</td><td>None</td><td>Sunday can be an easy 60 min walk</td></tr>
+            <tr><td>Miss a day</td><td>Restart at 1</td><td>Continue — note it</td></tr>
+            <tr><td>Diet</td><td>Zero cheats, no alcohol</td><td>Fuel hypos; stay-fit calories</td></tr>
+            <tr><td>Water</td><td>1 gallon (~3.8 L)</td><td>2–3 L + creatine water</td></tr>
+            <tr><td>Travel</td><td>Still two workouts</td><td>Reading / London walk = the hour</td></tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>📅 How the hour maps to this week</h2>
+      <ol class="week">
+        <li id="mon"><span class="day">Mon</span><div><strong>🏋️ Parkside/Abbey gym ~50 min + 🚶 10 min</strong><div class="meta">06:35 session. Opens 6.30am. Counts as the hour.</div></div></li>
+        <li id="tue"><span class="day">Tue</span><div><strong>🚴 Spin ~45 min + 🚶 walk to fill 60</strong><div class="meta">Book Better. Easy gears if glucose dips.</div></div></li>
+        <li id="wed"><span class="day">Wed</span><div><strong>🎾 Christ’s Pieces ~75 min</strong><div class="meta">Over the hour — that is fine. Stop if hypo.</div></div></li>
+        <li id="thu"><span class="day">Thu</span><div><strong>🚄 Reading: 2 × 30 min walks</strong><div class="meta">Morning + after work. No Cambridge 06:30 gym.</div></div></li>
+        <li id="fri"><span class="day">Fri</span><div><strong>🏊 Parkside swim ~45 min + 🚶 or 🏓</strong><div class="meta">Table tennis optional to complete the hour.</div></div></li>
+        <li id="sat"><span class="day">Sat</span><div><strong>🎾 Tennis ~75 min</strong><div class="meta">Parkside also 8.00am–5.30pm if courts are wet.</div></div></li>
+        <li id="sun"><span class="day">Sun</span><div><strong>🚶 Easy 60 min Cambridge walk</strong><div class="meta">Recovery still counts. Still take creatine.</div></div></li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>✅ Today’s hour</h2>
+      <p class="lede">Tap when the hour is done. Stored on this phone/browser. Target: <strong>75 days</strong> of ticks — gaps allowed, no shame restart.</p>
+      <p id="streak" class="kcal-chip accent"></p>
+      <button type="button" id="mark-hour">⏱️ Mark today’s hour done</button>
+      <button type="button" id="undo-hour" class="ghost">Undo today</button>
+      <p id="today-state" class="lede"></p>
+    </section>
+  </main>
+  <footer>
+    <p>💪 75 Strong is Erdem’s 1-hour rule — not Andy Frisella’s 75 Hard. Stay-fit, not punishment.</p>
+  </footer>
+  <script src="./nav.js"></script>
+  <script src="./strong.js"></script>
+</body>
+</html>

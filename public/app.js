@@ -53,6 +53,9 @@ function answer(q) {
   if (s.includes("creatine") || s.includes("supplement")) {
     return "⚡ Creatine monohydrate 5 g every day (including rest and travel). Take with the 🍌/🍞 snack or breakfast — not fasted. Extra ~400 ml water. Optional 5-day load at 20 g then 5 g. See the Supplements page.";
   }
+  if (s.includes("strong") || s.includes("75") || s.includes("hour") || s.includes("rule of thumb")) {
+    return "💪 75 Strong: one hour of sport every day for 75 days. Not 75 Hard (no two-a-days, no restart). Travel walks count. Fuel first. Log the hour on the 75 Strong page.";
+  }
   if (s.includes("calorie") || s.includes("kcal") || s.includes("tdee") || s.includes("eat") || s.includes("macro")) {
     return "🔥 BMR ≈ 1,879 kcal (Mifflin–St Jeor). Moderate week TDEE ≈ 2,912. Stay-fit target ≈ 2,612 kcal (~300 deficit). Protein ~173 g, fat ~77 g, carbs fill the rest so hypos stay rare.";
   }

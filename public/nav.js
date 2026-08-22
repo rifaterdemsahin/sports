@@ -2,6 +2,7 @@
   const PAGES = [
     { href: "./index.html", id: "home", label: "🏃 Home" },
     { href: "./schedule.html", id: "schedule", label: "📅 Schedule" },
+    { href: "./strong.html", id: "strong", label: "💪 75 Strong" },
     { href: "./better.html", id: "better", label: "🏋️ Better" },
     { href: "./locations.html", id: "locations", label: "📍 Locations" },
     { href: "./supplements.html", id: "supplements", label: "💊 Supplements" },
@@ -10,6 +11,7 @@
 
   const INDEX = [
     { title: "🏃 Home", href: "./index.html", text: "stay fit Rifat Erdem Sahin CB1 1BB Better Cambridge weekly plan agent" },
+    { title: "💪 75 Strong", href: "./strong.html", text: "one hour of sport a day 75 days strong not hard stay fit rule of thumb creatine fuel walk tennis gym" },
     { title: "📅 Week plan", href: "./schedule.html", text: "monday gym tuesday spin wednesday tennis thursday reading friday swim saturday tennis sunday walk creatine 06:30" },
     { title: "🏋️ Monday gym", href: "./schedule.html#mon", text: "strength parkside abbey 06:35 creatine snack" },
     { title: "🚴 Tuesday spin", href: "./schedule.html#tue", text: "spin class better app 06:35" },
