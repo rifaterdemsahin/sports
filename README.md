@@ -8,7 +8,7 @@ Stay-fit coach for **Rifat Erdem Sahin** (b. 17 Apr 1980, 183 cm, 96 kg, hypogly
 - **Thursday**: Reading travel (no early Cambridge gym)
 - London work days: walk before work
 
-Pages: Home · [Schedule](public/schedule.html) · [Locations](public/locations.html) · [Supplements](public/supplements.html) (creatine 5 g; stay-fit ~**2,612 kcal**) · [Hypos](public/hypo.html). Shared menu has site search.
+Pages: Home · Schedule · [Better Cambridge](public/better.html) · Locations · Supplements · Hypos. Shared menu has site search.
 
 ## Schedule (Europe/London)
 

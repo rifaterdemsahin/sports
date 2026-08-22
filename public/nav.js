@@ -2,6 +2,7 @@
   const PAGES = [
     { href: "./index.html", id: "home", label: "🏃 Home" },
     { href: "./schedule.html", id: "schedule", label: "📅 Schedule" },
+    { href: "./better.html", id: "better", label: "🏋️ Better" },
     { href: "./locations.html", id: "locations", label: "📍 Locations" },
     { href: "./supplements.html", id: "supplements", label: "💊 Supplements" },
     { href: "./hypo.html", id: "hypo", label: "⚠️ Hypos" },
@@ -20,8 +21,16 @@
     { title: "⚡ Creatine", href: "./supplements.html", text: "creatine 5g monohydrate daily breakfast water load 20g boost the day" },
     { title: "🔥 Calories", href: "./supplements.html", text: "bmr 1879 tdee 2912 stay-fit 2612 kcal protein macros mifflin" },
     { title: "💊 Supplements", href: "./supplements.html", text: "stack creatine snack water breakfast electrolytes" },
-    { title: "🏋️ Parkside", href: "./locations.html#parkside", text: "parkside pools gym gonville place CB1 1LY 06:30 better" },
-    { title: "🏋️ Abbey Leisure", href: "./locations.html#abbey", text: "abbey whitehill CB5 8NT pool gym spin" },
+    { title: "🏋️ Better Cambridge", href: "./better.html", text: "better gll cambridge membership parkside abbey cherry hinton jesus green lido ice arena kings hedges splashpads" },
+    { title: "🏋️ Parkside", href: "./better.html#parkside", text: "parkside pools gym gonville place CB1 1LY 06:30 better spin swim" },
+    { title: "🏋️ Abbey Leisure", href: "./better.html#abbey", text: "abbey whitehill CB5 8NT pool gym spin 06:30" },
+    { title: "🏋️ Cherry Hinton", href: "./better.html#cherry", text: "cherry hinton village leisure colville CB1 9EJ gym badminton pickleball table tennis racquets" },
+    { title: "🏊 Jesus Green Lido", href: "./better.html#lido", text: "jesus green lido outdoor pool chesterton CB4 3AX sauna" },
+    { title: "⛸️ Ice Arena", href: "./better.html#ice", text: "cambridge ice arena newmarket road CB5 8AA skating" },
+    { title: "🧒 Kings Hedges pool", href: "./better.html#kings", text: "kings hedges learner pool buchan street CB4 2XF" },
+    { title: "👨‍👩‍👧 Splashpads", href: "./better.html#splash", text: "cambridge splashpads paddling abbey coleridge lammas sheep green" },
+    { title: "🏋️ Parkside (travel)", href: "./locations.html#parkside", text: "parkside pools gym gonville place CB1 1LY 06:30 better" },
+    { title: "🏋️ Abbey (travel)", href: "./locations.html#abbey", text: "abbey whitehill CB5 8NT pool gym spin" },
     { title: "🎾 Christ’s Pieces", href: "./locations.html#tennis", text: "christ pieces tennis emmanuel clubspark book pay" },
     { title: "🏓 Table tennis", href: "./locations.html#tt", text: "table tennis better court hire friday evening" },
     { title: "🚄 Reading", href: "./locations.html#reading", text: "thursday reading travel" },
@@ -29,9 +38,8 @@
     { title: "⚠️ Hypoglycaemia", href: "./hypo.html", text: "hypo glucose snack banana toast juice do not train fasted 15g carb" },
   ];
 
-  const file = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-  const current =
-    file === "" || file === "/" ? "index.html" : file.endsWith(".html") ? file : "index.html";
+  const file = (location.pathname.replace(/\/$/, "").split("/").pop() || "index.html").toLowerCase();
+  const slug = file.replace(/\.html$/, "") || "index";
 
   const host = document.getElementById("site-nav");
   if (!host) return;
@@ -40,7 +48,7 @@
     <nav class="nav" aria-label="Site">
       <div class="nav-links">
         ${PAGES.map((p) => {
-          const active = current === p.href.replace("./", "");
+          const active = slug === p.id || slug === "index" && p.id === "home";
           return `<a href="${p.href}"${active ? ' aria-current="page"' : ""}>${p.label}</a>`;
         }).join("")}
       </div>
