@@ -50,8 +50,8 @@ function answer(q) {
   if (s.includes("table")) {
     return "🏓 Table tennis is optional — Friday evening when you feel good. Better memberships often include one racquet-court booking per week. Keep it social, not a third hard session.";
   }
-  if (s.includes("creatine") || s.includes("supplement")) {
-    return "⚡ Creatine monohydrate 5 g every day (including rest and travel). Take with the 🍌/🍞 snack or breakfast — not fasted. Extra ~400 ml water. Optional 5-day load at 20 g then 5 g. See the Supplements page.";
+  if (s.includes("creatine") || s.includes("supplement") || s.includes("vitamin") || s.includes("vault")) {
+    return "🏠 Jun 2025 vault (homeSupplements.md): C 1000, B-complex, multi, D3, Ca/Mg/K, extra Mg 2 caps, K2, hemp oil, fish oil, turmeric, greens, collagen greens (3 servings), potassium tabs, Siberian ginseng, EVOO 1 tbsp/meal, salad. You only: ginkgo, Brain Focus. Sleep: tryptophan, melatonin. As needed: fasting salts. Stopped: keto electrolytes, Lion’s Mane. Sport layer: ⚡ creatine 5 g with food. Not medical advice.";
   }
   if (s.includes("strong") || s.includes("75") || s.includes("hour") || s.includes("rule of thumb")) {
     return "💪 75 Strong: one hour of sport every day for 75 days. Not 75 Hard (no two-a-days, no restart). Travel walks count. Fuel first. Log the hour on the 75 Strong page.";
