@@ -22,7 +22,7 @@
     { title: "🔥 Calories", href: "./supplements.html", text: "bmr 1879 tdee 2912 stay-fit 2612 kcal protein macros mifflin" },
     { title: "💊 Supplements", href: "./supplements.html", text: "stack creatine snack water breakfast electrolytes" },
     { title: "🏋️ Better Cambridge", href: "./better.html", text: "better gll cambridge membership parkside abbey cherry hinton jesus green lido ice arena kings hedges splashpads" },
-    { title: "🏋️ Parkside", href: "./better.html#parkside", text: "parkside pools gym gonville place CB1 1LY 06:30 better spin swim" },
+    { title: "🏋️ Parkside", href: "./better.html#parkside", text: "parkside pools gym gonville place CB1 1LY opening times monday friday 6.30am 10.00pm saturday sunday 8.00am 5.30pm better.org.uk/parksidepools" },
     { title: "🏋️ Abbey Leisure", href: "./better.html#abbey", text: "abbey whitehill CB5 8NT pool gym spin 06:30" },
     { title: "🏋️ Cherry Hinton", href: "./better.html#cherry", text: "cherry hinton village leisure colville CB1 9EJ gym badminton pickleball table tennis racquets" },
     { title: "🏊 Jesus Green Lido", href: "./better.html#lido", text: "jesus green lido outdoor pool chesterton CB4 3AX sauna" },

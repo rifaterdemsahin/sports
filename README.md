@@ -3,7 +3,7 @@
 Stay-fit coach for **Rifat Erdem Sahin** (b. 17 Apr 1980, 183 cm, 96 kg, hypoglycaemic).
 
 - Home: **CB1 1BB**, Cambridge
-- **Better** membership — all Cambridge sites (Parkside, Abbey): gym, pool, spin. Weekday open **06:30**
+- **Better** membership — all Cambridge sites. **Parkside:** Mon–Fri 6.30am–10.00pm, Sat–Sun 8.00am–5.30pm ([better.org.uk/parksidepools](https://www.better.org.uk/parksidepools)).
 - Tennis: **Christ’s Pieces** (book ClubSpark)
 - **Thursday**: Reading travel (no early Cambridge gym)
 - London work days: walk before work

@@ -45,7 +45,7 @@ function answer(q) {
     return "Christ’s Pieces courts must be reserved and paid on ClubSpark (Emmanuel Rd). Wednesday evening and Saturday morning are on the calendar. Warm up 10–15 min; stop if you feel hypo.";
   }
   if (s.includes("spin") || s.includes("gym") || s.includes("pool") || s.includes("better") || s.includes("abbey") || s.includes("parkside")) {
-    return "Better membership covers Cambridge sites: Parkside (CB1 1LY) and Abbey (CB5 8NT) both open 06:30 weekdays. Book gym/swim/spin slots in the Better UK app. Monday strength, Tuesday spin, Friday swim.";
+    return "Parkside (CB1 1LY): Mon–Fri 6.30am–10.00pm, Sat–Sun 8.00am–5.30pm. better.org.uk/parksidepools. Abbey (CB5 8NT) also 06:30 weekdays. Book gym/swim/spin in the Better UK app.";
   }
   if (s.includes("table")) {
     return "🏓 Table tennis is optional — Friday evening when you feel good. Better memberships often include one racquet-court booking per week. Keep it social, not a third hard session.";

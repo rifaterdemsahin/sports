@@ -163,3 +163,4 @@ footer { padding: 0 4vw 2rem; color: var(--muted); font-size: 0.85rem; }
 .formula { font-size: 0.85rem; color: var(--muted); }
 .section-title { margin: 0.4rem 0 0; font-size: 1.05rem; color: var(--accent); }
 .tag { margin: 0 0 0.4rem; font-size: 0.8rem; color: var(--warn); }
+.card h3 { margin: 0.8rem 0 0.35rem; font-size: 0.95rem; }
