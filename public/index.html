@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🏃 Erdem Sports Agent</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>" />
+</head>
+<body>
+  <div id="site-nav"></div>
+  <header class="top">
+    <div>
+      <p class="kicker">🏃 Stay-fit agent · 📍 CB1 1BB · 🏋️ Better Cambridge</p>
+      <h1>Rifat Erdem Sahin</h1>
+    </div>
+    <div class="stats">
+      <span>🎂 17 Apr 1980 · 46</span>
+      <span>📏 183 cm · ⚖️ 96 kg</span>
+      <span>📊 BMI ~28.7</span>
+      <span>🔥 ~2,612 kcal stay-fit</span>
+      <span class="warn">⚠️ Hypoglycaemia — fuel before sessions</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="grid-2">
+      <article class="card">
+        <h2>📅 This week’s plan</h2>
+        <p class="lede">🏋️ Gym opens 06:30 weekdays. ⚡ Creatine 5 g daily with food. Skip a session if glucose is low.</p>
+        <ol id="week" class="week"></ol>
+      </article>
+      <article class="card">
+        <h2>🤖 Ask the agent</h2>
+        <p class="lede">Locations, ⚠️ hypos, 🚄 travel, 🎾 tennis, ⚡ creatine, 🔥 calories.</p>
+        <div id="chat" class="chat"></div>
+        <form id="ask">
+          <input name="q" autocomplete="off" placeholder="e.g. What should I do on Thursday in Reading?" />
+          <button type="submit">Ask</button>
+        </form>
+      </article>
+    </section>
+
+    <section class="grid-3">
+      <article class="card">
+        <h2>🏋️ Better membership</h2>
+        <ul>
+          <li>Works at all Cambridge Better sites (pool, gym, spin).</li>
+          <li><a href="https://www.better.org.uk/leisure-centre/cambridge/parksidepools" target="_blank" rel="noreferrer">Parkside Pools &amp; Gym</a> — Gonville Place, CB1 1LY. Gym 06:30–22:00 weekdays.</li>
+          <li><a href="https://www.better.org.uk/leisure-centre/cambridge/abbeyleisurecomplex" target="_blank" rel="noreferrer">Abbey Leisure</a> — Whitehill Rd, CB5 8NT. Centre 06:30 weekdays.</li>
+          <li>Book gym, swim, and spin in the Better UK app (sessions are slot-based).</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>🎾 Tennis &amp; 🏓 table tennis</h2>
+        <ul>
+          <li><strong>Christ’s Pieces</strong> — four courts, Emmanuel Rd. Must reserve and pay. <a href="https://clubspark.lta.org.uk/christs-pieces" target="_blank" rel="noreferrer">ClubSpark booking</a>.</li>
+          <li>Table tennis: Better court hire (one booking/week on many memberships) — evenings when energy is good.</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h2>🚄 Travel days</h2>
+        <ul>
+          <li><strong>Thursday · Reading</strong> — no 06:30 Cambridge gym. 20–30 min walk + mobility; Better Reading if a centre is convenient.</li>
+          <li><strong>London days</strong> — walk before work (hotel/station to office). Keep it easy if you trained the day before.</li>
+          <li>Home: CB1 1BB (city centre / Parkside is walkable).</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="card hypo">
+      <h2>⚠️ Hypoglycaemia protocol</h2>
+      <ol>
+        <li>Eat a carb snack 15–30 min before morning sessions (banana, toast, juice). Do not train fasted.</li>
+        <li>Carry fast carbs (glucose tabs or juice) to gym, court, and trains.</li>
+        <li>If shaky, sweaty, confused, or vision changes: stop, sit, take 15–20 g fast carb, wait 15 min, reassess.</li>
+        <li>Morning spin/gym is short (45–50 min) so you can eat breakfast after and still start the day.</li>
+        <li>This is a stay-fit plan, not medical advice. Follow your clinician if they differ.</li>
+      </ol>
+    </section>
+  </main>
+  <footer>
+    <p>🏃 Sports agent · 📅 Google Calendar (Pexabo) · ☁️ Cloudflare · <a href="./supplements.html">💊 Supplements</a></p>
+  </footer>
+  <script src="./nav.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

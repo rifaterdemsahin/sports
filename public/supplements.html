@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>💊 Supplements · Erdem Sports Agent</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div id="site-nav"></div>
+  <header class="top">
+    <div>
+      <p class="kicker">💊 Fuel · creatine · calories</p>
+      <h1>Supplements &amp; daily energy</h1>
+    </div>
+    <div class="stats">
+      <span>🎂 46 yrs</span>
+      <span>📏 183 cm</span>
+      <span>⚖️ 96 kg</span>
+      <span>📊 BMI <span id="bmi"></span></span>
+      <span class="warn">⚠️ Hypoglycaemia — pair creatine with food</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="card creatine-hero">
+      <h2>⚡ Creatine — boost the day</h2>
+      <p class="lede">Creatine monohydrate, <strong>5 g every day</strong> (including Reading, London, and rest days). It tops up muscle phosphocreatine so morning gym, spin, and tennis feel less flat. It is not a stimulant and it is not a carb — take it with food so glucose stays stable.</p>
+      <div class="grid-3 pills">
+        <div class="mini">
+          <h3>🧪 Daily dose</h3>
+          <p><strong>5 g</strong> creatine monohydrate in water. Same time every day. Optional load: 20 g/day split into 4×5 g for 5 days, then 5 g.</p>
+        </div>
+        <div class="mini">
+          <h3>🕗 When</h3>
+          <p><strong>06:15</strong> with the pre-session snack (🍌 banana / 🍞 toast) on gym mornings, or with breakfast on travel days. Consistency beats timing.</p>
+        </div>
+        <div class="mini">
+          <h3>💧 Water</h3>
+          <p>Extra <strong>~400 ml</strong> around the dose. Creatine pulls water into muscle. Skip if you feel bloated; never take it fasted with hypo risk.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>🔥 Daily calorie needs</h2>
+      <p class="lede">Mifflin–St Jeor BMR for a 46-year-old man at 96 kg / 183 cm, then multiplied by activity. Stay-fit target is a <strong>small deficit</strong> on the moderate week you actually live.</p>
+      <div class="kcal-row" id="kcal-row"></div>
+      <table class="kcal-table">
+        <thead>
+          <tr><th>Mode</th><th>Activity</th><th>kcal / day</th><th>Note</th></tr>
+        </thead>
+        <tbody id="kcal-body"></tbody>
+      </table>
+      <p class="formula" id="formula"></p>
+    </section>
+
+    <section class="grid-2">
+      <article class="card">
+        <h2>🍽️ Macros at stay-fit target</h2>
+        <p class="lede">Protein high enough to hold muscle while you drop BMI slowly. Carbs protect against hypos around training.</p>
+        <ul id="macros"></ul>
+      </article>
+      <article class="card">
+        <h2>📦 Stack (simple)</h2>
+        <ul>
+          <li>⚡ <strong>Creatine</strong> 5 g daily — performance / day boost</li>
+          <li>🍌 <strong>Pre-session carb</strong> 15–30 min before 06:30 work</li>
+          <li>💧 Water through the morning (hypo + creatine)</li>
+          <li>🍽️ Breakfast after gym/spin/swim — do not skip</li>
+          <li>🧂 Electrolytes only if tennis is long and hot</li>
+        </ul>
+        <p class="lede">This is a stay-fit plan, not medical advice. Creatine is widely studied in adults; check with your clinician if you have kidney concerns.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>💊 Supplements · 🏃 Erdem Sports Agent · not medical advice</p>
+  </footer>
+  <script src="./nav.js"></script>
+  <script type="module" src="./supplements.js"></script>
+</body>
+</html>
