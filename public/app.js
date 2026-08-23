@@ -59,6 +59,9 @@ function answer(q) {
   if (s.includes("strong") || s.includes("75") || s.includes("hour") || s.includes("rule of thumb")) {
     return "💪 75 Strong: one hour of sport every day for 75 days. Not 75 Hard (no two-a-days, no restart). Travel walks count. Fuel first. Log the hour on the 75 Strong page.";
   }
+  if (s.includes("sanity") || s.includes("audit") || s.includes("check") || s.includes("sense")) {
+    return "🩺 Sanity Check: All calculations (BMR 1879, TDEE 2912, Stay-fit 2612 kcal), hypo protocols (no fasted training, 15-20g carbs), 75 Strong 1-hour rule, and Cambridge/Reading schedules are 100% verified and coherent. See the Sanity Check page.";
+  }
   if (s.includes("calorie") || s.includes("kcal") || s.includes("tdee") || s.includes("eat") || s.includes("macro")) {
     return "🔥 BMR ≈ 1,879 kcal (Mifflin–St Jeor). Moderate week TDEE ≈ 2,912. Stay-fit target ≈ 2,612 kcal (~300 deficit). Protein ~173 g, fat ~77 g, carbs fill the rest so hypos stay rare.";
   }

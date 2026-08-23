@@ -8,10 +8,12 @@
     { href: "./supplements.html", id: "supplements", label: "💊 Supplements" },
     { href: "./sleep.html", id: "sleep", label: "😴 Sleep" },
     { href: "./hypo.html", id: "hypo", label: "⚠️ Hypos" },
+    { href: "./sanity-check.html", id: "sanity-check", label: "🩺 Sanity Check" },
   ];
 
   const INDEX = [
     { title: "🏃 Home", href: "./index.html", text: "stay fit Rifat Erdem Sahin CB1 1BB Better Cambridge weekly plan agent" },
+    { title: "🩺 Content Sanity Check", href: "./sanity-check.html", text: "sanity check content verification audit bmr tdee 75 strong hypo protocol feasibility does that make sense" },
     { title: "💪 75 Strong", href: "./strong.html", text: "one hour of sport a day 75 days strong not hard stay fit rule of thumb creatine fuel walk tennis gym" },
     { title: "📅 Week plan", href: "./schedule.html", text: "monday gym tuesday spin wednesday tennis thursday reading friday swim saturday tennis sunday walk creatine 06:30" },
     { title: "🏋️ Monday gym", href: "./schedule.html#mon", text: "strength parkside abbey 06:35 creatine snack" },
